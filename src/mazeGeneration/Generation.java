@@ -60,6 +60,21 @@ public void randomPlacer(){
 			} else {
 				map[x][y].setCurrent('0');
 			}
+			if (y == 10){
+				map[x][y].setCurrent(' ');
+			}
+			if (y == 11){
+				map[x][y].setCurrent(' ');
+			}
+			// if (y == 16){
+			// 	map[x][y].setCurrent(' ');
+			// }
+			if (x == 10){
+				map[x][y].setCurrent(' ');
+			}
+			if (x == 11){
+				map[x][y].setCurrent(' ');
+			}
 		}
 	}
 }
